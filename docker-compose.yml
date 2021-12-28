@@ -9,24 +9,6 @@ services:
       - ./.env
     volumes:
       - ./app:/usr/src/app
-    command: sh -c "npm start"
+    command: sh -c "npm install && npm run start"
     ports:
       - "3000:3000"
-
-
-
-#docker-compose run --rm node sh -c "npm install -g create-react-app && create-react-app . --template typescript"
-
-#docker-compose up -d --build
-
-#docker-compose down
-
-#docker-compose logs -f node
-
-#sudo chmod -R 777 app/
-
-#git remote add origin git@github.com:spadr/react-resas-spa.git
-
-#docker-compose run --rm node sh -c "npm install"
-
-#docker-compose exec node /bin/ash
