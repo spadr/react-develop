@@ -18,6 +18,8 @@ $ git clone https://github.com/spadr/react-resas-spa.git app
 $ mv .env.example .env
 
 #.envにRESASで取得した自分のAPI_KEYを記入する
+$ nano .env
+$ vim .env
 
 #イメージをビルドし、コンテナを起動
 $ docker-compose up -d --build
